@@ -109,7 +109,7 @@ getgenv().Username = "zehracantik19",
                 ["T-Rex"] = { priority = 9, emoji = "🦖", isMutation = false },
                 ["Spinosaurus"] = { priority = 10, emoji = "🫎", isMutation = false },
                 ["Queen Bee"] = { priority = 11, emoji = "👑", isMutation = false },
-                ["Red Fox"] = { priority = 26, emoji = "🦊", isMutation = false },
+                ["Kappa"] = { priority = 26, emoji = "🦊", isMutation = false },
                 -- Mutations
                 ["Ascended"] = { priority = 14, emoji = "🔺", isMutation = true },
                 ["Mega"] = { priority = 15, emoji = "🐘", isMutation = true },
@@ -862,5 +862,6 @@ end)
                 end       
             end
         end
+
 
     end
