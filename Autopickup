@@ -11,7 +11,7 @@ local function pickupAllPets()
             local owner = petMover:GetAttribute("OWNER")
             if owner and owner == player.Name then
                 for _, pet in pairs(petMover:GetChildren()) do
-                    -- FireServer action untuk pick up pet
+                    -- FireServer action untuk pick up pet satu kali
                     PetsService:FireServer("UnequipPet", pet.Name)
                 end
             end
@@ -19,7 +19,5 @@ local function pickupAllPets()
     end
 end
 
-while true do
-    pickupAllPets()
-    wait(1) -- delay aman supaya tidak spam server
-end
+-- Jalankan sekali saja
+pickupAllPets()
